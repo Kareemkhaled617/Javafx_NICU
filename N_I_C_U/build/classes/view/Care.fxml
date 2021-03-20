@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="1031.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="626.0" fitWidth="1035.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1.jpeg" />
+         </image>
+      </ImageView>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="1031.0">
+         <children>
+            <ImageView fitHeight="627.0" fitWidth="1043.0" layoutX="-3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/1.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="18.0" layoutY="10.0" prefHeight="130.0" prefWidth="322.0" text="The birth of a baby is a wonderful and very complex process. Many physical and emotional changes occur for both mother and baby.A baby must make many physical adjustments to life outside the mother's body. Leaving the uterus means that a baby can no longer depend on the mother's blood supply and placenta for important body functions." textAlignment="JUSTIFY" wrapText="true" />
+            <Label layoutX="19.0" layoutY="307.0" prefHeight="89.0" prefWidth="323.0" text="Before birth, the baby depends on functions from the mother. These include breathing, eating, elimination of waste, and immune protection. When a baby leaves the womb, its body systems must change. For example:" textAlignment="JUSTIFY" wrapText="true" />
+            <ImageView fitHeight="134.0" fitWidth="354.0" layoutX="67.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/279918.jpg" />
+               </image>
+               <effect>
+                  <Lighting diffuseConstant="1.63" specularConstant="0.0" specularExponent="9.3" surfaceScale="2.08">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </ImageView>
+            <Label layoutX="19.0" layoutY="396.0" prefHeight="22.0" prefWidth="270.0" text="-The lungs must breathe air." textAlignment="JUSTIFY" />
+            <Label layoutX="18.0" layoutY="435.0" prefHeight="40.0" prefWidth="257.0" text="-The liver and immune systems must begin working on their own." textAlignment="JUSTIFY" wrapText="true" />
+            <Label layoutX="20.0" layoutY="475.0" prefHeight="130.0" prefWidth="322.0" text="Your baby's body systems must work together in a new way. In some cases, a baby has trouble making the transition outside the womb. Preterm birth, a difficult birth, or birth defects can make these changes more challenging. But a lot of special care is available to help newborn babies." textAlignment="JUSTIFY" wrapText="true" />
+            <Label layoutX="353.0" layoutY="15.0" prefHeight="22.0" prefWidth="323.0" text="What is the neonatal intensive care unit (NICU)?" textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="364.0" layoutY="37.0" prefHeight="309.0" prefWidth="304.0" text="Newborn babies who need intensive medical care are often put in a special area of the hospital called the neonatal intensive care unit (NICU). The NICU has advanced technology and trained healthcare professionals to give special care for the tiniest patients. NICUs may also care areas for babies who are not as sick but do need specialized nursing care. Some hospitals don’t have the staff for a NICU and babies must be moved to another hospital. Babies who need intensive care do better if they are born in a hospital with a NICU than if they are moved after birth.Some newborn babies will require care in a NICU. Giving birth to a sick or premature baby can be unexpected for any parent. The NICU can be overwhelming. This information is to help you understand why a baby may need to be in the NICU. You will also find out about some of the procedures that may be needed for the care of your baby." textAlignment="JUSTIFY" wrapText="true" />
+            <Label layoutX="19.0" layoutY="418.0" prefHeight="0.0" prefWidth="270.0" text="-The cardiac and pulmonary circulation changes." textAlignment="JUSTIFY" wrapText="true" />
+            <Line endX="346.0" endY="9.0" startX="346.0" startY="617.0" />
+            <Label layoutX="362.0" layoutY="364.0" prefHeight="22.0" prefWidth="270.0" text="Which babies need special care?" textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="364.0" layoutY="396.0" prefHeight="193.0" prefWidth="304.0" text="Most babies admitted to the NICU are preterm (born before 37 weeks of pregnancy), have low birth weight (less than 5.5 pounds), or have a health condition that needs special care. In the U.S., nearly half a million babies are born preterm. Many of these babies also have low birth weights. Twins, triplets, and other multiples often are admitted to the NICU. This is because they tend to be born earlier and smaller than single birth babies. Babies with health conditions such as breathing trouble, heart problems, infections, or birth defects are also cared for in the NICU." textAlignment="JUSTIFY" wrapText="true" />
+            <Line endX="8.0" endY="567.0" layoutX="669.0" layoutY="52.0" startX="8.0" startY="-44.0" />
+            <Label layoutX="694.0" layoutY="15.0" prefHeight="22.0" prefWidth="315.0" text="Who will care for your baby in the NICU?">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="694.0" layoutY="37.0" prefHeight="46.0" prefWidth="322.0" text="Some of the specially-trained healthcare providers who may care for your baby include:" textAlignment="JUSTIFY" wrapText="true" />
+            <Label layoutX="694.0" layoutY="83.0" prefHeight="89.0" prefWidth="322.0" text="-Neonatologist. This is a pediatrician with extra training in the care of sick and premature babies. The neonatologist (often called the attending physician) supervises pediatric fellows and residents, nurse practitioners, and nurses who care for babies in the NICU." textAlignment="JUSTIFY" wrapText="true" />
+            <Label layoutX="694.0" layoutY="172.0" prefHeight="59.0" prefWidth="322.0" text="-Neonatal fellow. This is a pediatrician getting extra training in the care of sick and premature babies. He or she may do procedures and direct your child's care." textAlignment="JUSTIFY" wrapText="true" />
+            <Label layoutX="694.0" layoutY="231.0" prefHeight="59.0" prefWidth="322.0" text="-Pediatric resident. This is a doctor who is getting extra training in the care of children. He or she may do or assist in procedures and help direct your child's care." textAlignment="JUSTIFY" wrapText="true" />
+            <Label layoutX="690.0" layoutY="346.0" prefHeight="59.0" prefWidth="323.0" text="-Respiratory therapist. This is a person with special training in giving respiratory support. This includes managing breathing machines and oxygen." textAlignment="JUSTIFY" wrapText="true" />
+            <Label layoutX="691.0" layoutY="284.0" prefHeight="59.0" prefWidth="322.0" text="-Neonatal nurse practitioner. This is a registered nurse with extra training in the care of newborn babies. He or she can do procedures and help direct your child's care." textAlignment="JUSTIFY" wrapText="true" />
+            <Label layoutX="687.0" layoutY="407.0" prefHeight="74.0" prefWidth="323.0" text="-Pharmacists. Pharmacists help in the NICU by assisting the care providers choose the best medicines. They check medicine doses and levels. They keep the team aware of possible side effects and monitoring that may be needed." textAlignment="JUSTIFY" wrapText="true" />
+            <Label layoutX="691.0" layoutY="496.0" prefHeight="89.0" prefWidth="322.0" text="NICU team members work together with parents to create a plan of care for high-risk newborns. Ask about the NICU's parent support groups and other programs designed to help parents." textAlignment="JUSTIFY" wrapText="true">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

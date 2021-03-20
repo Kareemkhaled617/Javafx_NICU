@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="621.0" prefWidth="949.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="n_i_c_u.AboutController">
+   <children>
+      <Pane prefHeight="315.0" prefWidth="476.0" style="-fx-background-color: #1e212d;">
+         <children>
+            <ImageView fitHeight="354.0" fitWidth="212.0" layoutX="-9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Kareem.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutY="246.0" prefHeight="49.0" prefWidth="272.0" text="Kareem khaled Abd Elmogny" textFill="#1687a7">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="209.0" layoutY="14.0" prefHeight="49.0" prefWidth="234.0" text="Phone : 01157446858" textFill="#2cbfb0">
+               <font>
+                  <Font name="Arial Narrow Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="209.0" layoutY="57.0" prefHeight="49.0" prefWidth="234.0" text="Work : DB / Insert" textFill="#2cbfb0">
+               <font>
+                  <Font name="Arial Narrow Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutY="313.0" prefHeight="308.0" prefWidth="476.0" style="-fx-background-color: #9fb8ad;">
+         <children>
+            <ImageView fitHeight="231.0" fitWidth="212.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/kimo.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutY="245.0" prefHeight="49.0" prefWidth="272.0" text="Kareem Mohamed Shabana" textFill="#1687a7">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="220.0" layoutY="14.0" prefHeight="49.0" prefWidth="234.0" text="Phone : 01157975233" textFill="#2d57bd">
+               <font>
+                  <Font name="Arial Narrow Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="220.0" layoutY="57.0" prefHeight="49.0" prefWidth="234.0" text="Work : Search " textFill="#2d57bd">
+               <font>
+                  <Font name="Arial Narrow Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="473.0" prefHeight="315.0" prefWidth="476.0" style="-fx-background-color: #faf3e0;">
+         <children>
+            <ImageView fitHeight="246.0" fitWidth="212.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/hussin.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutY="246.0" prefHeight="49.0" prefWidth="272.0" text="Hussin Mohamed Abdo" textFill="#1687a7">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="212.0" prefHeight="49.0" prefWidth="234.0" text="Phone : 01017835844" textFill="#2cbfb0">
+               <font>
+                  <Font name="Arial Narrow Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="212.0" layoutY="43.0" prefHeight="49.0" prefWidth="234.0" text="Work : care / Login" textFill="#2cbfb0">
+               <font>
+                  <Font name="Arial Narrow Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="473.0" layoutY="313.0" prefHeight="308.0" prefWidth="476.0" style="-fx-background-color: #383e56;">
+         <children>
+            <ImageView fitHeight="220.0" fitWidth="212.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/kamel.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutY="233.0" prefHeight="49.0" prefWidth="272.0" text="Kamel Abdelkader Kamel" textFill="#1687a7">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="212.0" layoutY="7.0" prefHeight="49.0" prefWidth="234.0" text="Phone : 01027089543" textFill="#2cbfb0">
+               <font>
+                  <Font name="Arial Narrow Bold" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="212.0" layoutY="50.0" prefHeight="49.0" prefWidth="234.0" text="Work : Regrist / Main" textFill="#2cbfb0">
+               <font>
+                  <Font name="Arial Narrow Bold" size="21.0" />
+               </font>
+            </Label>
+            <Button layoutX="325.0" layoutY="241.0" mnemonicParsing="false" onAction="#back" prefHeight="53.0" prefWidth="137.0" style="-fx-background-color: #00303f; -fx-border-width: 2; -fx-border-radius: 3;" text="Back" textAlignment="CENTER" textFill="#f8f8f8">
+               <font>
+                  <Font name="Arial" size="26.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

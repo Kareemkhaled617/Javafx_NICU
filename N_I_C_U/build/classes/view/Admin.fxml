@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="466.0" prefWidth="728.0" style="-fx-background-color: #40394a;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="n_i_c_u.AdminController">
+   <children>
+      <ImageView fitHeight="160.0" fitWidth="192.0" layoutX="273.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="80.0" layoutY="203.0" prefHeight="60.0" prefWidth="226.0" text="Username" textFill="#f2edd7">
+         <font>
+            <Font name="Baskerville Old Face" size="51.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="298.0" prefHeight="60.0" prefWidth="196.0" text="Password" textFill="#f2edd7">
+         <font>
+            <Font name="Baskerville Old Face" size="51.0" />
+         </font>
+      </Label>
+      <TextField id="userfield" fx:id="user" layoutX="411.0" layoutY="218.0" promptText="user name" style="-fx-border-color: black;">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </TextField>
+      <TextField id="passfield" fx:id="pass" layoutX="411.0" layoutY="310.0" promptText="password" style="-fx-border-color: black;">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="285.0" layoutY="377.0" mnemonicParsing="false" onAction="#adminLogin" prefHeight="53.0" prefWidth="137.0" style="-fx-background-color: #00303f; -fx-border-width: 2; -fx-border-radius: 3;" text="Login" textAlignment="CENTER" textFill="#f8f8f8">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </Button>
+      <Button layoutY="413.0" mnemonicParsing="false" onAction="#Back" prefHeight="53.0" prefWidth="137.0" style="-fx-background-color: #00303f; -fx-border-width: 2; -fx-border-radius: 3;" text="Back" textAlignment="CENTER" textFill="#f8f8f8">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
